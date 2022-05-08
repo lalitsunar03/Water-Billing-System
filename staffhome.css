@@ -98,7 +98,6 @@ hr{
   background-color:white;
   text-align:  center;
   border-radius: 5px;
-  top:50%;
  
 }
 h2{
@@ -106,9 +105,9 @@ h2{
   z-index:1px;
   color: white;
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- font-size:80px;
-padding-top:105px;
-left:10%;
+ font-size:100px;
+ padding-top:105px;
+ padding-left:10px;
 }
 .footer{
   background:rgb(27, 14, 14);
@@ -116,6 +115,7 @@ left:10%;
   clear:both;
   height:210px;
   margin-top:2px;
+  text-align: center;
   color:white;
 }
 .footer-left{
@@ -163,13 +163,13 @@ left:10%;
    background-color:gray;
    text-align:center;
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:800px) {
   h2{
     position:absolute;
     z-index:1px;
     color: white;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   font-size:80px;
-  padding-top:105px;
+   font-size:50px;
+   padding-top:105px;
   }
 }
