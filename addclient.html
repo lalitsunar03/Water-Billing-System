@@ -16,6 +16,69 @@
         <li><a href="# Bottom">Contact Us</a></li>
         </ul>
      </nav>
+     <img name="slide" width="100%" height="400px">
+     <div class="service">
+     <h1>Welcome to our website</h1>
+     <hr class=".hr">
+     <div class="user-home">Kathmandu Upatyaka Khanepani Limited (KUKL) is a public company registered under the Nepal Government’s Company Act 2063 and operates under the Public Private Partnership (PPP) modality. According to KUKL’s Articles of Association, the company has the
+      objective to undertake and manage the water supply and sanitation system of the Kathmandu Valley previously operated by NWSC and to provide a quantitative, qualitative and reliable service to its customers at an affordable price. It is responsible for the operation & management of water and wastewater services in the Valley. It operates the water supply and wastewater services under a License and Lease Agreement with the Kathmandu Valley Water Supply Management Board (KVWSMB) for 30 years. It is responsible for the maintenance of all assets received on lease from KVWSMB. It will also take over the responsibility for infrastructure built by the Melamchi Water Supply Project.The shareholders of the company, with relative initial shareholdings, are: the Government of Nepal (30%), Municipalities in the Valley (50%), Private Sector Organizations (15%) [ FNCCI- 3%, Lalitpur Chamber of Commerce – 1.5%, Nepal Chamber of Commerce- 9%, Bhaktapur Chamber of Commerce -1.5%], and an employee trust  paid by the government (5%).
+     </div>
+      <table>
+        <h1>Our Service</h1>
+         <tr>
+           <td> KUKL is water utility operator of Kathmandu valley.We provide following services to our valuable customers.</td>
+         </tr>
+    
+         <tr>
+            <td><h4> 1.Drinking Water Service:</h4> </td>
+        </tr>
+        <tr>
+        <td>
+           <h5> (I) Tap Water Service:</h5>
+        We are providing drinking water through tap in the areas where our pipelines reached. Following branch offices are providing this services:
+
+        <ul style="list-style-type:disc;">
+            <li>Baneswor Branch</li>
+            <li>Bhaktapur Branch</li>
+            <li>Chhetrapati Branch</li>
+            <li>Kirtipur Branch</li>
+            <li>Lalitpur Branch</li>
+            <li>Madhyapur Thimi Branch</li>
+            <li>Mahankalchaur Branch</li>
+            <li>Maharajgunj Branch</li>
+            <li>Tripureswor Branch</li>
+            </ul>
+        <h5>(II) Tanker Water Service:</h5>
+        Tanker section provides the tanker water service for customers. The tanker section is located at Mahankalchaur, Kathmandu.<br>
+        Contact No. :01-5210019, 01-5210351<br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <h4>2.Sanitation Service:</h4> 
+                   Waste Water Operation Division provides the sanitation services ( Construction/extension of the new sewer line, repair and maintenance of the existing sewer line & manholes, removal of blockage in the sewer line) which is located at Jawalakhel, Lalitpur.<br>
+Contact No. :01-4332803
+                </td>
+            </tr>
+            <tr>
+                <td>
+                  <tr>
+                <td>
+                   <h4> 3. Water Quality Test Service:</h4>
+                    Water/Waste Water Quality Assurance Division provides the water quality test services for sample water which is located at Mahankalchaur, Kathmandu.<br>
+                    Contact No. :01-5210534
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <h4> 4. Water Meter Test & Deep tube well Service:</h4>
+                   Electro-Mechanical Section provides the water meter test and deep tube well (construction, maintenance) services which is located at Sundarighat, Kathmandu.<br>
+                   Contact No. :01-4352115
+                </td>
+            </tr>
+               
+            </table>
+     </div>
     <div class="user-left">
         <div class="image1">
             <a href="#Request"> <img src="4.png" height="150px" width="150px" class="img"> 
@@ -48,7 +111,29 @@
            </form>
         </div>
    </div> 
-
+   <script>
+    var i=0; //start point
+    var images=[];
+    var time=4000;
+    //arrays of images
+    images[0]='11.jpg';
+    images[1]='12.jpg';
+    images[2]='13.jpg';
+    //change image
+    function changeImg(){
+       document.slide.src=images[i];
+       if(i < images.length-1){
+          i++;
+       }
+       else{
+          i=0;
+       }
+       setTimeout("changeImg()",time);
+    }
+    window.onload = changeImg;
+ 
+ 
+ </script>
 
 </body>
 </html>

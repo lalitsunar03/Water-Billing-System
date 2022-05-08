@@ -46,17 +46,24 @@
     }
    
 .user-left{
-    height:465px;
-    width:50%;
+    height:300px;
+    width:30%;
     background-color: rgb(190, 218, 243);
     float:left;
+    margin-left:15%;
+    border-radius:20px;
+    margin-bottom:10px;
 }
 
 .user-right{
-    height:465px;
-    width:50%;
+    height:300px;
+    width:30%;
     background-color: rgb(98, 172, 236);
     float:right;
+    margin-right:15%;
+    border-radius:20px;
+    margin-bottom:10px;
+
 }
 .image1{
         position:relative;
@@ -135,5 +142,34 @@
     width:60px;
     margin:8px;
 }
+h2{
+    position:relative;
+    z-index:1;
+}
+table,tr,td {
+    border: 1px solid black;
+ }
+.service{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:16px;
+    justify-content: center;
+    margin-left:40px;
+    padding-left:50px;
+    margin:10px;
+    line-height:40px;
+    background-color: aliceblue;
 
+}
+.user-home{
+    width:100%;
+    float:left;
+    text-align: justify;
+    padding:10px;
+}
+.hr{
+    width:100%;
+    background-color:green;
+    height:60px;
+    z-index:1;
+}
 
